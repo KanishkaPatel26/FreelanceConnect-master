@@ -176,30 +176,47 @@
     cursor: pointer;
 }
 
-.galery-cont {
+.gallery-cont {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: stretch; /* Ensure all items stretch to the same height */
 }
-  
+
 .category-item {
-    flex-basis: calc(33.33% - 40px); /* Adjusted for equal sizing */
+    flex-basis: 30%;
+    box-sizing: border-box;
+    margin-bottom: 30px;
     text-align: center;
-    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-  
+
 .category-item img {
-    max-width: 35%;
+    width: 100%;
     height: auto;
+    border-radius: 8px;
+    max-height: 200px; /* Adjust this to a suitable max height */
 }
-  
+
+.category-item a {
+    text-decoration: none;
+    color: inherit;
+    flex-grow: 1; /* Allows the link to take up the remaining space */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Align text and image */
+}
+
 .category-name {
-    font-size: 16px;
     margin-top: 10px;
-    color: #333;
+    font-size: 18px;
+    font-weight: 600;
+    flex-shrink: 0; /* Prevents the text from shrinking */
 }
-  
-  
+
+
 
 .landing-page__wrapper .card i {
     color: #2DB67C;

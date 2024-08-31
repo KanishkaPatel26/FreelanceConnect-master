@@ -127,34 +127,47 @@ function Landing() {
       <section class="gallery">
         <div class="contenedor">
           <h2 class="title">Categories</h2><br /><br />
-          <article class="gallery-cont" id="categories">
+          <div class="gallery-cont" id="categories">
             <div class="category-item">
-              <LazyLoadImage src={mobile} alt="Mobile Development" />
-              <p class="category-name">Mobile Development</p>
+              <a href="/mobile-development">
+                <LazyLoadImage src={mobile} alt="Mobile Development" />
+                <p class="category-name">Mobile Development</p>
+              </a>
             </div>
             <div class="category-item">
-              <LazyLoadImage src={digital} alt="Digital Marketing" />
-              <p class="category-name">Digital Marketing</p>
+              <a href="/digital-marketing">
+                <LazyLoadImage src={digital} alt="Digital Marketing" />
+                <p class="category-name">Digital Marketing</p>
+              </a>
             </div>
             <div class="category-item">
-              <LazyLoadImage src={content} alt="Content Creation" />
-              <p class="category-name">Content Creation</p>
+              <a href="/content-creation">
+                <LazyLoadImage src={content} alt="Content Creation" />
+                <p class="category-name">Content Creation</p>
+              </a>
             </div>
             <div class="category-item">
-              <LazyLoadImage src={video} alt="Video Editing" />
-              <p class="category-name">Video Editing</p>
+              <a href="/video-editing">
+                <LazyLoadImage src={video} alt="Video Editing" />
+                <p class="category-name">Video Editing</p>
+              </a>
             </div>
             <div class="category-item">
-              <LazyLoadImage src={web} alt="Web Development" />
-              <p class="category-name">Web Development</p>
+              <a href="/web-development">
+                <LazyLoadImage src={web} alt="Web Development" />
+                <p class="category-name">Web Development</p>
+              </a>
             </div>
             <div class="category-item">
-              <LazyLoadImage src={design} alt="Graphic Design" />
-              <p class="category-name">Graphic Design</p>
+              <a href="/graphic-design">
+                <LazyLoadImage src={design} alt="Graphic Design" />
+                <p class="category-name">Graphic Design</p>
+              </a>
             </div>
-          </article>
+          </div>
         </div>
       </section>
+
 
 
       <section class="info-last" id="clients">
