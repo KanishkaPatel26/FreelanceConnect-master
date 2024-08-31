@@ -42,7 +42,7 @@ function Landing() {
             <a href="#quote">Why WorkHub</a>
             <a href="#reviews">Client Reviews</a>
             <a href="#categories">Categories</a>
-            <a href="#clients">for Clients</a>
+            <a href="#clients">For Clients</a>
             <a href="#contact">Contact Us</a>
             <button
               className="nav-btn nav-close-btn"
@@ -103,7 +103,7 @@ function Landing() {
                 src={bakr} alt="John Doe" className="person-image" />
             </div><br></br>
             <h3>John Doe</h3>
-            <p><q>I recently had the pleasure of using WorkHub. This website is a great tool for freelancers to find jobs and post their own services.</q></p>
+            <p><q>I recently had the pleasure of using WorkHub. This website is a great tool for students to find jobs and post their own services.</q></p>
           </article>
           <article className="card">
             <div className="person-icon">
@@ -119,7 +119,7 @@ function Landing() {
                 src={sohaib} alt="Manas Singh" className="person-image" />
             </div><br></br>
             <h3>Manas Singh</h3>
-            <p><q>Overall, I highly recommend WorkHub for freelancers looking for jobs or services. The website is reliable, secure, and user-friendly.</q></p>
+            <p><q>Overall, I highly recommend WorkHub for freelancer students looking for jobs or services. The website is reliable, secure, and user-friendly.</q></p>
           </article>
         </div>
       </section>
