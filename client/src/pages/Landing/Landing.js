@@ -100,50 +100,62 @@ function Landing() {
           <article className="card">
             <div className="person-icon">
               <LazyLoadImage
-                src={bakr} alt="Bakr Asskali" className="person-image" />
+                src={bakr} alt="John Doe" className="person-image" />
             </div><br></br>
-            <h3>Bakr Asskali</h3>
-            <p><q>I recently had the pleasure of using FreelanceConnect. This website is a great tool for freelancers to find jobs and post their own services.</q></p>
+            <h3>John Doe</h3>
+            <p><q>I recently had the pleasure of using WorkHub. This website is a great tool for freelancers to find jobs and post their own services.</q></p>
           </article>
           <article className="card">
             <div className="person-icon">
               <LazyLoadImage
-                src={samir} alt="Samir Ziani" className="person-image" />
+                src={samir} alt="Rohit Sharma" className="person-image" />
             </div><br></br>
-            <h3>Samir Ziani</h3>
+            <h3>Rohit Sharma</h3>
             <p><q>The website is also secure and provides a secure payment system. Payment is done through the website and is secure and reliable.</q></p>
           </article>
           <article className="card">
             <div className="person-icon">
               <LazyLoadImage
-                src={sohaib} alt="Sohaib Manah" className="person-image" />
+                src={sohaib} alt="Manas Singh" className="person-image" />
             </div><br></br>
-            <h3>Sohaib Manah</h3>
-            <p><q>Overall, I highly recommend FreelanceConnect for freelancers looking for jobs or services. The website is reliable, secure, and user-friendly.</q></p>
+            <h3>Manas Singh</h3>
+            <p><q>Overall, I highly recommend WorkHub for freelancers looking for jobs or services. The website is reliable, secure, and user-friendly.</q></p>
           </article>
         </div>
       </section>
 
-      <section class="galery" >
+      <section class="gallery">
         <div class="contenedor">
-          <h2 class="title">Categories</h2><br></br><br></br>
-          <article class="galery-cont" id="categories">
-            <LazyLoadImage
-              src={mobile} alt="" />
-            <LazyLoadImage
-              src={digital} alt="" />
-            <LazyLoadImage
-              src={content} alt="" />
-            <LazyLoadImage
-              src={video} alt="" />
-            <LazyLoadImage
-              src={web} alt="" />
-            <LazyLoadImage
-              src={design} alt="" />
+          <h2 class="title">Categories</h2><br /><br />
+          <article class="gallery-cont" id="categories">
+            <div class="category-item">
+              <LazyLoadImage src={mobile} alt="Mobile Development" />
+              <p class="category-name">Mobile Development</p>
+            </div>
+            <div class="category-item">
+              <LazyLoadImage src={digital} alt="Digital Marketing" />
+              <p class="category-name">Digital Marketing</p>
+            </div>
+            <div class="category-item">
+              <LazyLoadImage src={content} alt="Content Creation" />
+              <p class="category-name">Content Creation</p>
+            </div>
+            <div class="category-item">
+              <LazyLoadImage src={video} alt="Video Editing" />
+              <p class="category-name">Video Editing</p>
+            </div>
+            <div class="category-item">
+              <LazyLoadImage src={web} alt="Web Development" />
+              <p class="category-name">Web Development</p>
+            </div>
+            <div class="category-item">
+              <LazyLoadImage src={design} alt="Graphic Design" />
+              <p class="category-name">Graphic Design</p>
+            </div>
           </article>
         </div>
-
       </section>
+
 
       <section class="info-last" id="clients">
         <div class="contenedor last-section">
@@ -180,7 +192,7 @@ function Landing() {
                 <FaGithub />
               </a>
               <span style={{ marginRight: '10px' }}></span>
-              <a class="xx" href="https://www.linkedin.com/in/ismail-oukha-90a070227">
+              <a class="xx" href="https://www.linkedin.com/in/kanishka-patel-76aaa324b/">
                 <FaLinkedin />
               </a>
             </p>
@@ -192,11 +204,11 @@ function Landing() {
             </div><br></br>
             <h3>To be added</h3>
             <p>
-              <a class="xx" href="https://github.com/Anass001">
+              <a class="xx" href="https://github.com/Shristi267">
                 <FaGithub />
               </a>
               <span style={{ marginRight: '10px' }}></span>
-              <a class="xx" href="https://www.linkedin.com/in/anas-lamaiz-b7a82213a">
+              <a class="xx" href="https://www.linkedin.com/in/shristi-rai-980166256/">
                 <FaLinkedin />
               </a>
             </p>
