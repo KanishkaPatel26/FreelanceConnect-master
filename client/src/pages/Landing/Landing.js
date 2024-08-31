@@ -91,7 +91,7 @@ function Landing() {
       <section class="info" >
         <div class="contenedor">
           {/* <h2 class="title left" >Ismail OUKHA & Anas LAMAIIZ, <b style={{ color: 'black' }}>Developers</b></h2><br></br><br></br> */}
-          <p>“WorkHub is the ultimate freelancing platform tailored for students. Discover project-based job opportunities, showcase your skills, and manage your freelance work with innovative AI-driven insights<br></br> It serves as a centralized hub, connecting talented freelancers with businesses and individuals seeking their expertise.”</p>
+          <p>“WorkHub is the ultimate freelancing platform tailored for students. Discover project-based job opportunities, showcase your skills, and manage your freelance work with innovative AI-driven insights."<br></br></p>
         </div>
       </section>
       <section className="cards contenedor" id="reviews">
