@@ -103,74 +103,21 @@ To run this project locally or deploy it to a server using NGINX, follow the ste
 Before getting started, ensure that you have the following prerequisites installed on your system:
 
 - Node.js (v12 or higher)
-- MongoDB
-- NGINX (for server deployment)
 
 ### Local Development
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/Anass001/FreelanceConnect.git
-   cd FreelanceConnect
-   ```
-   
-2. Install project dependencies:
+Install project dependencies:
 
    ```bash
    npm install
    ```
    
-3. Configure environment variables:
-Update the nodemon.json file located in the root directory of the project with your environment variables:
-
-   ```json
-   {
-      "env": {
-      "MONGO_ATLAS_USER": "<your-mongo-atlas-user>",
-      "MONGO_ATLAS_PW": "<your-mongo-atlas-password>",
-      "MONGO_ATLAS_DB": "<your-mongo-atlas-database>",
-      "CLOUDINARY_API_KEY": "<your-cloudinary-api-key>",
-      "CLOUDINARY_API_SECRET": "<your-cloudinary-api-secret>",
-      "CLOUDINARY_NAME": "<your-cloudinary-name>",
-      "JWT_KEY": "<your-jwt-key>"
-      }
-   }
-   ```
 Replace the placeholders with the actual values specific to your project.
-
-4. Start the Express.js server:
-
-   ```bash
-   npm run server
-   ```
-  
-5. Start the React client:
-
-   ```bash
-   npm run client
-   ```
-  
-6. Access the application:
+Access the application:
 
 - Server: http://localhost:4000
 - Client: http://localhost:3000
 
-### Server Deployment with NGINX
-
-1. Prepare your server:
-
-- Set up a virtual machine or a physical server with your preferred Linux distribution.
-- Install Node.js, MongoDB, and NGINX on the server.
-
-2. Clone the repository:
-
-   ```bash
-   git clone https://github.com/Anass001/FreelanceConnect.git
-   cd FreelanceConnect
-   ```
-   
-3. Install project dependencies:
+Install project dependencies:
 
    ```bash
    npm install
