@@ -216,8 +216,6 @@
     flex-shrink: 0; /* Prevents the text from shrinking */
 }
 
-
-
 .landing-page__wrapper .card i {
     color: #2DB67C;
     font-size: 50px;
