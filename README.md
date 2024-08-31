@@ -1,9 +1,9 @@
 </br>
 <div align="center">
-  <img src="https://github.com/Anass001/FreelanceConnect/blob/master/freelance-connect.gif" width="350px">
+<!--   <img src="https://github.com/Anass001/FreelanceConnect/blob/master/freelance-connect.gif" width="350px"> -->
 </div>
 </br>
-FreelanceConnect is a website developed using Node.js, MongoDB, React, and GraphQL. It serves as a platform for connecting freelancers with clients. Freelancers can showcase their services and clients can easily browse and order these services.
+WorkHub is a website developed using Node.js, MongoDB, React, and GraphQL. It serves as a platform for connecting freelancers with clients. Freelancers can showcase their services and clients can easily browse and order these services.
 
 ## Features
 This project includes the following features:
